@@ -12,11 +12,7 @@ defmodule Advent2021 do
       :world
 
   """
-  def hello do
-    {:ok, file} = File.read("input.txt")
-
-    file
-    |> String.split("\n")
-    |> IO.puts()
+  def main do
+    # TODO: Create menu to select and run different days
   end
 end
